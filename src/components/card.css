@@ -1,0 +1,85 @@
+.row{
+	display: flex;
+}
+
+.column__left {
+	flex: 30%;
+	display: flex;
+	border-radius: 5px;
+	justify-content: right;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+.card{
+	border-bottom: 1px solid #F5F5F5;
+	padding: 18px;
+}
+
+.card__icon{
+	padding-right: 5px;
+	color: #f55a5a;
+}
+
+.column__right {
+	flex: 70%;
+	padding-top: 20px;
+}
+.card__img{
+	border-radius: 5px;
+	max-width: 200px;
+	aspect-ratio: 4/5;
+}
+
+.card__loc{
+	box-sizing: border-box;
+	padding-right: 12px;
+	font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+}
+
+.card__gmap{
+	font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+
+}
+
+.card__title{
+	font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+}
+
+.card__date{
+	font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;
+}
+
+.card__desc{
+	font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+
+}

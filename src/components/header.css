@@ -1,0 +1,27 @@
+header{
+	box-sizing: border-box;
+	background-color: #f55a5a;
+	width: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+}
+
+
+
+header > span {
+	font-style: normal;
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+}
+
+.header__icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	padding-right: 7px;
+}
